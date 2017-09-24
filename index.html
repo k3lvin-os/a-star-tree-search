@@ -1,0 +1,36 @@
+﻿<html>
+
+<head>
+    <!--CSS REFERENCES-->
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="js/libs/alertify.js/dist/css/alertify.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Simulador de busca no grafo</title>
+</head>
+
+<body id="body">
+    <input type="checkbox" checked id="showGrad" onclick="showGradOnClick(checked)">Mostrar grade
+    <input type="button" id="restartBtn" value="Reiniciar">
+    <input type="button" id="excludeBtn" value="Excluir" disabled>
+    <input type="button" id="beginBtn" value="Marcar começo" disabled>
+    <input type="button" id="endBtn" value="Marcar fim" disabled>
+    <input type="button" id="calculateBtn" value="Calcular caminho" disabled>
+    <input type="button" id="instructionsBtn" value="Instruções">
+    <br><br>
+    <canvas id="canvas"></canvas>
+    <!--JAVASCRIPT REFERENCES-->
+    <script src="js/libs/alertify.js/src/js/alertify.js"></script>
+    <script src="js/classes/adjacencies.js"></script>
+    <script src="js/classes/alphabet.js"></script>
+    <script src="js/classes/edge.js"></script>
+    <script src="js/classes/vertex.js"></script>
+    <script src="js/classes/collision.js"></script>
+    <script src="js/classes/quad.js"></script>
+    <script src="js/classes/point.js"></script>
+    <script src="js/classes/grid.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/events.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
